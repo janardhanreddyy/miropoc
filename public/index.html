@@ -62,7 +62,7 @@
          * Modal opener
          */
         async function openEstimateModal(widget) {
-            return miro.board.ui.openModal('modal.html', Config.modal_options)
+            return miro.board.ui.openModal('https://janardhanreddyy.github.io/miropoc/public/modal.html', Config.modal_options)
                 .then(() => {
                     // Inform others, that the data has changed
                     sendMessageToWebsocket("data_changed")
